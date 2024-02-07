@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .product {
+        border: 2px solid navy;
+      }
+
+      .status {
+        width: 50px;
+        height: 50px;
+        border: black 2px solid;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .inner {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="register()">register</button>
+
+    <button onclick="logIn()">Login</button>
+    <button onclick="checkDb()">Check DB</button>
+    <button onclick="add()">Add</button>
+
+    <div class="status">
+      <div class="inner"></div>
+    </div>
+    <div class="productsList"></div>
+  </body>
+
+  <script src="./JS/main.js"></script>
+</html>
